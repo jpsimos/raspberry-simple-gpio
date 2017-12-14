@@ -1,0 +1,6 @@
+#!/bin/sh
+
+#GPIO utility build script
+#Jacob Psimos 2017
+
+gcc -o gpio gpio.c gpiolib.c --std=c99 -fstack-protector-strong -O2
